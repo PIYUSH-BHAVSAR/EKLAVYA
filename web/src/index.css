@@ -1,0 +1,31 @@
+/* Bundled fonts — no CDN, works fully offline */
+@import "@fontsource/inter/400.css";
+@import "@fontsource/inter/500.css";
+@import "@fontsource/inter/600.css";
+@import "@fontsource/inter/700.css";
+@import "@fontsource/noto-sans-devanagari/400.css";
+@import "@fontsource/noto-sans-devanagari/500.css";
+@import "@fontsource/noto-sans-devanagari/600.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base font */
+body {
+  font-family: "Inter", sans-serif;
+}
+
+/* Devanagari text baseline */
+[lang="mr"], .mr {
+  font-family: "Noto Sans Devanagari", sans-serif;
+}
+
+/* Scrollbar polish */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: #F4F6FB; }
+::-webkit-scrollbar-thumb { background: #d1d5db; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #9ca3af; }
+
+/* Highlight quoted text in source drawer */
+mark { background: #FEF3C7; padding: 0 2px; border-radius: 2px; }

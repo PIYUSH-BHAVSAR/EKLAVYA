@@ -1,0 +1,162 @@
+[
+  {
+    "id": "q01",
+    "question": "Who is eligible to apply for loans from Shabari Adivasi Finance and Development Corporation?",
+    "expected_gr": "",
+    "expected_values": ["tribal", "adivasi", "schedule", "आदिवासी", "जमाती"],
+    "expected_refusal": false,
+    "note": "Basic eligibility — Scheduled Tribe members"
+  },
+  {
+    "id": "q02",
+    "question": "What is the maximum loan amount available under this scheme?",
+    "expected_gr": "",
+    "expected_values": ["lakh", "लाख"],
+    "expected_refusal": false,
+    "note": "Max loan limit as per GR"
+  },
+  {
+    "id": "q03",
+    "question": "What is the rate of interest charged on loans?",
+    "expected_gr": "",
+    "expected_values": ["%", "percent", "टक्के", "व्याज"],
+    "expected_refusal": false,
+    "note": "Interest rate from GR"
+  },
+  {
+    "id": "q04",
+    "question": "What is the repayment period allowed for loans?",
+    "expected_gr": "",
+    "expected_values": ["year", "वर्ष", "month", "महिना"],
+    "expected_refusal": false,
+    "note": "Repayment tenure as per GR"
+  },
+  {
+    "id": "q05",
+    "question": "What documents are required to apply for a loan?",
+    "expected_gr": "",
+    "expected_values": ["aadhaar", "certificate", "caste", "जात", "प्रमाणपत्र"],
+    "expected_refusal": false,
+    "note": "Document requirements from GR"
+  },
+  {
+    "id": "q06",
+    "question": "Is there an income limit for applying for loans?",
+    "expected_gr": "",
+    "expected_values": ["income", "उत्पन्न", "lakh", "लाख"],
+    "expected_refusal": false,
+    "note": "Income ceiling condition"
+  },
+  {
+    "id": "q07",
+    "question": "What is the age limit for applying for loans from this corporation?",
+    "expected_gr": "",
+    "expected_values": ["year", "वर्ष", "age", "वय"],
+    "expected_refusal": false,
+    "note": "Age eligibility from GR"
+  },
+  {
+    "id": "q08",
+    "question": "Which tribes or scheduled tribe communities are covered under this scheme?",
+    "expected_gr": "",
+    "expected_values": ["schedule", "tribe", "जमात", "अनुसूचित"],
+    "expected_refusal": false,
+    "note": "Covered communities"
+  },
+  {
+    "id": "q09",
+    "question": "Has the loan limit been changed or revised at any point?",
+    "expected_gr": "",
+    "expected_values": ["revised", "changed", "amended", "बदल", "सुधारित"],
+    "expected_refusal": false,
+    "note": "Amendment question — checks if GR chain is indexed"
+  },
+  {
+    "id": "q10",
+    "question": "What types of loans are available — is there a business loan, housing loan, or education loan?",
+    "expected_gr": "",
+    "expected_values": ["business", "व्यवसाय", "education", "शिक्षण", "housing", "loan", "कर्ज"],
+    "expected_refusal": false,
+    "note": "Loan categories from GR"
+  },
+  {
+    "id": "q11",
+    "question": "Is there any subsidy available along with the loan?",
+    "expected_gr": "",
+    "expected_values": ["subsidy", "अनुदान", "grant", "सबसिडी"],
+    "expected_refusal": false,
+    "note": "Subsidy component"
+  },
+  {
+    "id": "q12",
+    "question": "Where should a person apply — which office or portal?",
+    "expected_gr": "",
+    "expected_values": ["office", "कार्यालय", "nashik", "नाशिक", "district", "जिल्हा"],
+    "expected_refusal": false,
+    "note": "Application process and office"
+  },
+  {
+    "id": "q13",
+    "question": "या महामंडळाच्या कर्जासाठी कोण पात्र आहे?",
+    "expected_gr": "",
+    "expected_values": ["आदिवासी", "जमात", "अनुसूचित"],
+    "expected_refusal": false,
+    "note": "Marathi: eligibility question"
+  },
+  {
+    "id": "q14",
+    "question": "जास्तीत जास्त किती कर्ज मिळू शकते?",
+    "expected_gr": "",
+    "expected_values": ["लाख", "रुपये"],
+    "expected_refusal": false,
+    "note": "Marathi: max loan amount"
+  },
+  {
+    "id": "q15",
+    "question": "कर्जावरील व्याजदर किती आहे?",
+    "expected_gr": "",
+    "expected_values": ["टक्के", "%", "व्याज"],
+    "expected_refusal": false,
+    "note": "Marathi: interest rate"
+  },
+  {
+    "id": "q16",
+    "question": "Has my loan application been approved? Please check my status.",
+    "expected_gr": "",
+    "expected_values": [],
+    "expected_refusal": true,
+    "note": "Personal status — must refuse"
+  },
+  {
+    "id": "q17",
+    "question": "माझा अर्ज मंजूर झाला का? माझ्या कर्जाची स्थिती काय आहे?",
+    "expected_gr": "",
+    "expected_values": [],
+    "expected_refusal": true,
+    "note": "Marathi personal status — must refuse"
+  },
+  {
+    "id": "q18",
+    "question": "Was the interest rate on loans changed at any point? What was the previous rate?",
+    "expected_gr": "",
+    "expected_values": ["%", "percent", "interest", "rate", "व्याज"],
+    "expected_refusal": false,
+    "note": "Changed-rule question for amendment demo"
+  },
+  {
+    "id": "q19",
+    "question": "What is the name of this corporation and which government department oversees it?",
+    "expected_gr": "",
+    "expected_values": ["shabari", "शबरी", "tribal", "आदिवासी"],
+    "expected_refusal": false,
+    "note": "Basic identification"
+  },
+  {
+    "id": "q20",
+    "question": "Can a woman from a scheduled tribe apply for a loan under this scheme?",
+    "expected_gr": "",
+    "expected_values": ["woman", "महिला", "eligible", "पात्र"],
+    "expected_refusal": false,
+    "note": "Gender eligibility — should cite GR"
+  }
+]
